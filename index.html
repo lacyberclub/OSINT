@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>The Ghosts of Christmas Craft</title>
+		<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" media="screen and (max-width: 674px)" href="smallstylesheet.css"/>
+		<link rel="stylesheet" media="screen and (min-width: 675px)" href="stylesheet.css"/>
+		<script type = "text/javascript" src = "script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><img src = "Logo.png" alt = "Logo" height = 75px></li>
+				<li class = "linkText">Home</li>
+				<li class = "linkText">About Us</li>
+				<li class = "linkText">Our Products</li>
+				<li class = "linkText">Contact Us</li>
+			</ul>
+		</nav>
+		<h1>The Ghosts of Christmas Craft</h1>
+		<img src = "christmasImage2.jpg" style = "width: calc(50vw - 11px)">
+		<img src = "christmasImage1.jpg" style = "width: calc(50vw - 11px)">
+		
+		<div id = "info">
+			<p>The Ghosts of Christmas Craft are a family-run business creating quintessentially quirky christmas related gifts 
+			and presents for anyone who you think may take delight in them. To find out more about our products, visit the 'Our
+			Products' page and to find out more about us, visit our 'About Us' page. Finally, to get involved, head over to our
+			'Contact Us' page!</p>
+		</div>
+		<h6>Sign in (Members only)</h6>
+		
+		<!-- In case I forget, the admin password is christmasisawesome -->
+		
+		<div id="id01" class="modal">
+			<form class="modal-content animate">
+				<div class="container">
+					<label for="uname"><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="uname"  id = "user">
+					
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="psw"  id = "pass">
+        
+					<button type="submit" onclick = "validatePassword()">Login</button>
+					<label>
+						<input type="checkbox" checked="checked" name="remember"> Remember me
+					</label>
+				</div>
+			</form>
+		</div>
+		<footer>
+			<p>This website is purely a work of fiction. Any resemblance to real companies or websites is purely coincidental.</p>
+		</footer>
+	</body>
+</html>

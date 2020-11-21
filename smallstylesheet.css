@@ -1,0 +1,122 @@
+* {margin: 0; padding: 0;}
+		
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-family: Garamond;
+	font-size: 30px;
+	text-align: center;
+}
+
+.linkText{
+	padding: 15px calc(10.95vw - 63.378px);
+}
+
+nav ul li img {
+	padding: 20px 0px 0px 5vw;
+	float: left;
+	height: 200px;
+}
+
+body {
+	background-color: black;
+}
+
+#info {
+	background-color: beige;
+	border-style:solid;
+	border-color: none;
+	border-radius: 10px;
+	margin: 10px;
+	
+}
+
+#info p {
+	margin: 10px;
+	font-family: 'Zilla Slab';
+	font-size: 20px;
+}
+
+h1 {
+	background-color: red;
+	border-style: solid;
+	border-color: none;
+	border-radius: 4px;
+	font-size: 3vw;
+	margin: 13vw 29vw;
+	opacity: 85%;
+	padding: 1vw;
+	position: absolute;
+	text-align: center;
+	z-index: 2;
+}
+
+
+input[type=text], input[type=password] {
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	display: block;
+	font-size: 20px;
+	margin: 8px 0;
+	padding: 8px 20px;
+	width: 100%;
+}
+
+button {
+	background-color: red;
+    border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 8px 0;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+	background-color: rgba(0,0,0,0.0);
+	display: block;
+	margin-top: 20px;
+	overflow: none;
+	width: 100%;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	border: 1px solid #888;
+	margin: 0% 5%;
+	width: auto; 
+}
+
+label {
+	font-family: 'Zilla Slab';
+}
+
+footer {
+	color: white;
+	font-family: 'Zilla Slab';
+	font-size: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+h6 {
+	color: white;
+	font-family: 'Zilla Slab';
+	font-size: 20px;
+	margin: 30px 0px 0px 30px;
+}
