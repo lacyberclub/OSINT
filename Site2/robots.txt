@@ -1,0 +1,3 @@
+User-agent: *
+
+Allow: /Site2.html
