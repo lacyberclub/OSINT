@@ -1,0 +1,4 @@
+User-agent: *
+
+Allow: /Site3.html
+Disallow: /database.html
